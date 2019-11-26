@@ -67,6 +67,7 @@ svg {
   right: 0;
   width: 100%;
   max-width: 820px;
+  z-index: 11;
 
 }
 
@@ -121,7 +122,6 @@ nav {
 .nav-links li a:hover {
   color: #373534;
 }
-
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wetransfer-e17969/Hero.jpg");
@@ -190,7 +190,6 @@ button {
   line-height: 1.4em;
 }
 
-
 h4 {
   font-size: 1.6em;
 }
@@ -199,12 +198,9 @@ h4 {
   margin-bottom: 60px;
 }
 
-
-
 .about-emma {
   margin-bottom: 18%;
 }
-
 
 .emmapic {
   background-image: url("wetransfer-e17969/Emma1.jpg");
@@ -425,4 +421,76 @@ li.fade {
     left: 32px;
     top: 9px;
   }
+}
+
+
+
+/*Styling for contact form*/
+
+
+
+.contact-nav {
+  height: 10vh;
+  margin: 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  max-width: 820px;
+  top: 36px;
+}
+.gradient {
+  background: linear-gradient(58.11128488461634deg, rgba(255, 140, 158,1) 7.228215767634856%,rgba(254, 140, 158,1) 7.228215767634856%,rgba(192, 250, 224,1) 80.58921161825727%);
+ 
+ padding-top: 1px;
+    padding-bottom: 40px;
+}
+
+.say-hello{
+  margin-top: 30%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#subject {
+  height: 154px;
+    margin-top: 44px;
+    margin-bottom: 0px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ff8c9e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  opacity: 0.7;
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+#interest {
+  padding-bottom: 10%;
 }
