@@ -4,9 +4,10 @@ html {
   text-align: center;
   color: #373534;
   font-family: 'Montserrat', 'Nunito', sans-serif;
-  font-size: 1.1em;
   max-width: 820px;
   margin: 0 auto !important;
+  border: #c0fae0 solid 1px;
+  overflow: auto;
 }
 
 
@@ -63,7 +64,7 @@ svg {
   display: inline-block;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   max-width: 820px;
 
@@ -215,9 +216,6 @@ h4 {
 }
 
 
-
-
-
 .emmapic {
   background-image: url("wetransfer-e17969/Emma1.jpg");
   height: 80%;
@@ -228,7 +226,7 @@ h4 {
 }
 
 .classPic {
-  background-image: url("wetransfer-e17969/classes.jpg");
+  background-image: url("wetransfer-e17969/Optimized-classes.jpg");
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -261,7 +259,7 @@ h4 {
 
 
 .cy {
-  background-image: url("wetransfer-e17969/classes1.jpg");
+  background-image: url("wetransfer-e17969/Optimized-classes1.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -370,6 +368,7 @@ button:hover {
     color: white;
     height: 100vh;
     width: 100%;
+    max-width: 820px;
     z-index: 3;
     flex-direction: column;
     clip-path: circle(50px at 90% -10%);

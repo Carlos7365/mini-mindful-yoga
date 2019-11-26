@@ -12,7 +12,10 @@ hamburger.addEventListener("click", () => {
 });
 
 function initMap() {
-    var location = {lat:51.465952 , lng:-0.072594}
+    var location = {
+        lat: 51.465952,
+        lng: -0.072594
+    }
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 15,
         center: location
@@ -22,5 +25,3 @@ function initMap() {
         map: map
     });
 }
-
-
