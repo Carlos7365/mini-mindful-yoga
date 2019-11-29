@@ -14,7 +14,8 @@ html {
 
 .classes {
   padding: 50px 40px 50px 40px;
-  line-height: 1.4em
+  line-height: 1.4em;
+  margin-top: 75px;
 }
 
 .contact {
@@ -173,7 +174,8 @@ button {
 
 .intro {
   padding: 101px 45px;
-  line-height: 1.4em
+  line-height: 1.4em;
+  margin-top: 75px;
 }
 
 .intro h1 {
@@ -395,7 +397,7 @@ button:hover {
 }
 
 .nav-links li:nth-child(2) {
-  margin-bottom: 20%;
+ 
   transition: all 0.5s ease 0.4s;
 }
 
@@ -488,7 +490,7 @@ input[type=submit]:hover {
   padding: 20px;
   margin: auto;
   margin-bottom: 10%;
-  width: 60%;
+  width: 50%;
 }
 
 #interest {

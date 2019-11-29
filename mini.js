@@ -11,6 +11,17 @@ hamburger.addEventListener("click", () => {
     });
 });
 
+
+
+navLinks.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+    links.forEach(link => {
+        link.classList.toggle('fade');
+    });
+});
+
+
+
 function initMap() {
     var location = {
         lat: 51.465952,
@@ -25,3 +36,5 @@ function initMap() {
         map: map
     });
 }
+
+
