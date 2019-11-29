@@ -172,6 +172,15 @@ button {
 
 }
 
+.scroll-down{
+  background-image: url(wetransfer-e17969/scroll-down.png);
+  height: 50px;
+  background-repeat: no-repeat;
+  margin-top: 64px;
+  background-position: center
+}
+
+
 .intro {
   padding: 101px 45px;
   line-height: 1.4em;
