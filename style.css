@@ -182,36 +182,70 @@ button {
 
 
 .intro {
-  padding: 101px 45px;
+  padding: 10px 45px 101px 45px;
   line-height: 1.4em;
   margin-top: 75px;
 }
 
 .intro h1 {
-  margin-bottom: 47px;
+  margin-bottom: 63px;
+  margin-top: -16px;
 }
 
 .aboutEmma {
-  padding: 101px 45px;
+  padding: 101px 45px 70px 45px;
   line-height: 1.4em;
 }
+.about-emma {
+  margin-bottom: 18%;
+}
+
+.aboutEmma h1{
+  margin-bottom: 63px;
+  margin-top: -16px;
+}
+
 
 .classes {
-  padding: 101px 45px;
+  padding: 10px 45px 36px 45px;
   line-height: 1.4em;
+}
+.classes h1 {
+  margin-bottom: 57px;
+  margin-top: 1px;
 }
 
 h4 {
-  font-size: 1.6em;
+  font-size: 1.3em;
 }
 
 .classes button {
   margin-bottom: 60px;
 }
 
-.about-emma {
-  margin-bottom: 18%;
+.classes p {
+  margin-bottom: 27px;
 }
+
+.inSchool h2 {
+  margin-bottom: 41px;
+  margin-top: 84px;
+}
+
+.birthday-parties h2 {
+  margin-top: 88px;
+    margin-bottom: 42px;
+}
+
+.comming-soon h2 {
+  margin-top: 83px;
+    margin-bottom: 40px;
+}
+
+.studio h2 {
+  margin-bottom: 48px;
+}
+
 
 .emmapic {
   background-image: url("wetransfer-e17969/Emma1.jpg");
