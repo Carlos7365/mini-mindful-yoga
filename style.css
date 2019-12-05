@@ -108,7 +108,7 @@ nav {
 
   list-style: none;
   width: 50%;
-  height: 100%;
+  height: 50%;
   margin-left: auto;
   margin-top: 0;
   justify-content: space-around;
@@ -400,19 +400,34 @@ button:hover {
 }
 
 .nav-links li:nth-child(1) {
-  margin-top: 20%;
+  margin-top: 30%;
   transition: all 0.5s ease 0.2s;
 
 }
 
 .nav-links li:nth-child(2) {
  
+  transition: all 0.5s ease 0.3s;
+}
+.nav-links li:nth-child(3) {
+ 
   transition: all 0.5s ease 0.4s;
+}
+.nav-links li:nth-child(4) {
+ 
+  transition: all 0.5s ease 0.5s;
+  margin-bottom: 10%;
 }
 
 li.fade {
   opacity: 1;
 }
+
+
+
+
+
+
 
 
 
@@ -431,6 +446,26 @@ li.fade {
     position: relative;
     left: 32px;
     top: 9px;
+  }
+  .nav-links li:nth-child(1) {
+    margin-top: 40%;
+   
+  }
+  
+  .nav-links li:nth-child(4) {
+    margin-bottom: 20%;
+  }
+  
+}
+@media only screen and (max-width: 410px) {
+  
+
+  .line {
+    width: 24px;
+    height: 2px;
+    background: #373534;
+    margin: 4px;
+  
   }
 }
 
