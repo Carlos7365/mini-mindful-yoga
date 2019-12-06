@@ -125,7 +125,7 @@ nav {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wetransfer-e17969/Optimized-Hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wetransfer-e17969/Final-images/Optimized-Hero1.jpg");
   z-index: 2;
   height: 80%;
   background-position: center;
@@ -261,7 +261,7 @@ h4 {
 
 
 .class-pic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wetransfer-e17969/Optimized-classes.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wetransfer-e17969/Final-images/Optimized-classes1.jpg");
   ;
   height: 80%;
   background-position: center;
@@ -284,7 +284,7 @@ h4 {
 
 
 .cy {
-  background-image: url("wetransfer-e17969/Optimized-classes1.jpg");
+  background-image: url("wetransfer-e17969/Final-images/Optimized-classes2.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -293,7 +293,7 @@ h4 {
 }
 
 .family {
-  background-image: url("wetransfer-e17969/family.jpg");
+  background-image: url("wetransfer-e17969/Final-images/family.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@ h4 {
 }
 
 .colague {
-  background-image: url("wetransfer-e17969/3x3.jpg");
+  background-image: url("wetransfer-e17969/Final-images/3x3.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
