@@ -125,12 +125,12 @@ nav {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wetransfer-e17969/Final-images/Optimized-Hero1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("wetransfer-e17969/Final-images/yoga1.jpg");
   z-index: 2;
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto, 90vh;
   position: relative;
   top: 5%;
   background-attachment: fixed;
@@ -255,8 +255,10 @@ h4 {
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto, 90vh;
+  /* background-size: cover; */
   background-attachment: fixed;
+  position: relative;
 }
 
 
@@ -293,7 +295,7 @@ h4 {
 }
 
 .family {
-  background-image: url("wetransfer-e17969/Final-images/family.jpg");
+  background-image: url("wetransfer-e17969/Final-images/Yoga4.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -302,11 +304,12 @@ h4 {
 }
 
 .colague {
-  background-image: url("wetransfer-e17969/Final-images/3x3.jpg");
+  background-image: url("wetransfer-e17969/Final-images/Yoga5_1.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
+  background-size: auto, 100vh;
   position: relative;
 }
 
@@ -389,7 +392,7 @@ button:hover {
 .nav-links {
   position: fixed;
   top: 0;
-  background: #ff8c9e;
+  background: linear-gradient(58.11128488461634deg, rgba(255, 140, 158, 1) 7.228215767634856%, rgba(254, 140, 158, 1) 7.228215767634856%, rgba(192, 250, 224, 1) 80.58921161825727%);
   color: white;
   height: 100vh;
   width: 100%;
@@ -404,7 +407,7 @@ button:hover {
 }
 
 .nav-links li a {
-  color: white;
+  color: #373534;
   text-decoration: none;
   font-size: 2em;
 
@@ -477,6 +480,8 @@ li.fade {
     left: 32px;
     top: 9px;
   }
+
+
 
   .nav-links li:nth-child(1) {
     margin-top: 40%;
