@@ -19,16 +19,12 @@ html {
 }
 
 .contact {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
+
   background-color: #ff8c9e;
   height: 5%;
   overflow: hidden;
   position: fixed;
-  /* Set the navbar to fixed position */
   top: 0;
-  /* Position the navbar at the top of the page */
   width: 100%;
   max-width: 820px;
   margin: auto;
@@ -38,28 +34,20 @@ html {
 
 }
 
-.contact>li {
-  position: relative;
-  top: 20%;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: .85em;
-
-
+.contact ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 15px;
+  margin: 6px;
 }
+
+.contact ul li :nth-child(1) {}
 
 .contact a {
   color: white;
 }
 
-.email {
-  left: 15px;
-
-}
-
-.telephone {
-  right: 15px;
-
-}
 
 svg {
   display: inline-block;
@@ -125,7 +113,7 @@ nav {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("wetransfer-e17969/Final-images/yoga1.jpg");
+  background-image: url("wetransfer-e17969/Final-images/yoga1.jpg");
   z-index: 2;
   height: 80%;
   background-position: center;
@@ -230,6 +218,11 @@ h4 {
   margin-bottom: 27px;
 }
 
+.inSchool,
+.birthday-parties {
+  padding: 0 45px;
+}
+
 .inSchool h2 {
   margin-bottom: 41px;
   margin-top: 84px;
@@ -255,8 +248,8 @@ h4 {
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto, 90vh;
-  /* background-size: cover; */
+  /* background-size: auto, 90vh; */
+  background-size: cover;
   background-attachment: fixed;
   position: relative;
 }
@@ -265,7 +258,7 @@ h4 {
 .class-pic {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wetransfer-e17969/Final-images/Optimized-classes1.jpg");
   ;
-  height: 80%;
+  height: 58%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -301,6 +294,7 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: 10%;
 }
 
 .colague {
@@ -311,6 +305,10 @@ h4 {
   background-attachment: fixed;
   background-size: auto, 100vh;
   position: relative;
+}
+
+.bday-button {
+  margin-bottom: 10%;
 }
 
 #map {
@@ -481,6 +479,10 @@ li.fade {
     top: 9px;
   }
 
+  .contact ul {
+    font-size: 0.9em;
+  }
+
 
 
   .nav-links li:nth-child(1) {
@@ -502,7 +504,6 @@ li.fade {
     height: 2px;
     background: #373534;
     margin: 4px;
-
   }
 }
 
@@ -523,8 +524,7 @@ li.fade {
 }
 
 .gradient {
-  background: linear-gradient(58.11128488461634deg, rgba(255, 140, 158, 1) 7.228215767634856%, rgba(254, 140, 158, 1) 7.228215767634856%, rgba(192, 250, 224, 1) 80.58921161825727%);
-
+  background: linear-gradient(59.57375445109426deg, rgba(192, 250, 224, 1) 28.164703231052037%, rgba(254, 140, 158, 1) 81.22872331023756%, rgba(255, 140, 158, 1) 81.22872331023756%);
   padding-top: 1px;
   padding-bottom: 40px;
 }
