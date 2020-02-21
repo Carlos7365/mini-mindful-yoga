@@ -1,2 +1,2 @@
 # mini-mindful-yoga
-Website for my friends new business
+Website for Mini Mindful Childrens Yoga
