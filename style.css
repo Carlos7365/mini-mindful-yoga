@@ -113,12 +113,13 @@ nav {
 }
 
 .hero-image {
-  background-image: url("wetransfer-e17969/Final-images/yoga1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Images/Hero1.jpg");
+  ;
   z-index: 2;
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto, 90vh;
+  background-size: cover;
   position: relative;
   top: 5%;
   background-attachment: fixed;

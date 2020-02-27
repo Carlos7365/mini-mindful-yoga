@@ -38,7 +38,3 @@ function initMap() {
     });
 };
 
-$(window).scroll(function() {
-    var scrolledY = $(window).scrollTop();
-    $('#container').css('background-position', 'center ' + ((scrolledY)) + 'px');
-  });
