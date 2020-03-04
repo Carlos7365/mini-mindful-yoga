@@ -113,7 +113,7 @@ nav {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Images/Hero1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Images/yoga1.jpg");
   ;
   z-index: 2;
   height: 80%;
@@ -163,7 +163,7 @@ button {
 }
 
 .scroll-down {
-  background-image: url(wetransfer-e17969/scroll-down.png);
+  background-image: url(Images/scroll-down.png);
   height: 50px;
   background-repeat: no-repeat;
   margin-top: 64px;
@@ -245,7 +245,7 @@ h4 {
 
 
 .emmapic {
-  background-image: url("wetransfer-e17969/Emma1.jpg");
+  background-image: url("Images/Emma1.jpg");
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -257,7 +257,7 @@ h4 {
 
 
 .class-pic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("wetransfer-e17969/Final-images/Optimized-classes1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Optimized-classes1.jpg");
   ;
   height: 58%;
   background-position: center;
@@ -280,7 +280,7 @@ h4 {
 
 
 .cy {
-  background-image: url("wetransfer-e17969/Final-images/Optimized-classes2.jpg");
+  background-image: url("Images/Optimized-classes2.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -289,7 +289,7 @@ h4 {
 }
 
 .family {
-  background-image: url("wetransfer-e17969/Final-images/Yoga4.jpg");
+  background-image: url("Images/Yoga4.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -299,7 +299,7 @@ h4 {
 }
 
 .colague {
-  background-image: url("wetransfer-e17969/Final-images/Yoga5_1.jpg");
+  background-image: url("Images/Yoga5_1.jpg");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;

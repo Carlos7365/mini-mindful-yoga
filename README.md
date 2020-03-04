@@ -1,2 +1,2 @@
-# mini-mindful-yoga
-Website for Mini Mindful Childrens Yoga
+# Mini-Mindful
+Project for a Children's Yoga company.
