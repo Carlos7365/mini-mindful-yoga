@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalise.css">
     <link
-        href="https://fonts.googleapis.com/css?family=Montserrat|Kalam:400,700|Nunito:400,600&display=swap | Ubuntu&display=swap"
+        href="https://fonts.googleapis.com/css?family=Montserrat|Kalam:400,700|Nunito:400,600&display=swap|Ubuntu&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#nav-icon3, #nav-about, #classes').click(function () {
+                $("#nav-icon3").toggleClass('open');
+            });
+        });
+    </script>
 </head>
 
 
@@ -36,22 +44,23 @@
                     style="stroke:#c0fae0;stroke-width:1.5; fill:white;"></path>
             </svg>
             <div class="logo_div">
-                <a href="index.html"><img src="Images/mini-mindful-logo-web.gif" alt="Minimindful logo" class="logo">
+                <a href="index.html"><img src="Images/Mini-Logo.gif" alt="Minimindful logo" class="logo">
                 </a>
 
             </div>
 
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+            <div id="nav-icon3" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
 
             <ul class="nav-links">
-                <li class="home"><a href="index.html">Home</a></li>
-                <li class="about-link"><a href="index.html#button1">About</a></li>
-                <li class="classes-link"><a href="index.html#quote1">Classes</a></li>
-                <li class="contactP"><a href="contact.html">Contact</a></li>
+                <li class="home"><a class="underline" href="index.html">Home</a></li>
+                <li class="about-link" id="nav-about"><a class="underline" href="index.html#about">About</a></li>
+                <li class="classes-link" id="classes"><a class="underline" href="index.html#class">Classes</a></li>
+                <li class="contactP"><a class="underline" href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
@@ -59,13 +68,10 @@
         <main>
             <h1 class="say-hello">Say Hello..</h1>
             <div class="form-container">
-                <form action="contact.php" method="post">
+                <form action="POST" data-netlify="true">
 
-                    <label for="fname">First Name</label>
+                    <label for="name">Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
                     <label for="lname">Your email</label>
                     <input type="text" id="email" name="emailadd" placeholder="Your email address.." required>
@@ -83,10 +89,13 @@
                     <textarea id="subject" name="subject"
                         placeholder="Further information/questions/dates you’re interested in" style="height:200px"
                         required></textarea>
-
+                    <div class="field">
+                        <div data-netlify-recaptcha="true"> </div>
+                    </div>
                     <input type="submit" value="Submit">
 
                 </form>
+
             </div>
         </main>
     </div>
@@ -99,6 +108,9 @@
         <br>
 
         <a href="https://www.gaiastudio.co.uk/" target="_blank" class="fa fa1">www.gaiastudio.co.uk</a>
+    </div>
+    <div class="awd">
+        <p>Designed by Carlos Sanchez</p>
     </div>
 
     <script src="mini.js"></script>
